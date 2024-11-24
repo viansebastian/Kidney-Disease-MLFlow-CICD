@@ -6,7 +6,8 @@ from cnn_classifier.utils.common import read_yaml, create_directories
 from cnn_classifier.objects.config_object import (
     DataIngestionConfig, 
     PretrainedModelConfig,
-    TrainingConfig
+    TrainingConfig,
+    EvaluationConfig
 )
 
 
@@ -71,3 +72,15 @@ class ConfigurationManager:
         )
         
         return train_config
+    
+    def get_eval_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            model_path='artifacts/training/final_model.keras',
+            training_data='artifacts/data_ingestion/data',
+            all_params=self.params,
+            params_batch_size=self.params.BATCH_SIZE,
+            params_image_size=self.params.IMAGE_SIZE, 
+            mlflow_uri='https://dagshub.com/viansebastian/Kidney-Disease-MLFlow-CICD.mlflow'
+        )
+        
+        return eval_config

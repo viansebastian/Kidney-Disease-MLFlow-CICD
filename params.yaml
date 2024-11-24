@@ -1,11 +1,11 @@
 AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3]
-BATCH_SIZE: 16
+BATCH_SIZE: 8
 INCLUDE_TOP: False
-EPOCHS: 10
+EPOCHS: 5
 CLASSES: 3
 WEIGHTS: imagenet
-LEARNING_RATE: 0.001
+LEARNING_RATE: 0.0001
 # CONV_LAYERS: [
 #             {'filters': choice(64, 128), 
 #             'kernel_size': (3, 3), 

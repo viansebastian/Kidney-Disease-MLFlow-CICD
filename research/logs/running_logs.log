@@ -46,3 +46,20 @@
 [ 2024-11-24 00:20:31,568 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
 [ 2024-11-24 00:20:32,278 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 [ 2024-11-24 00:20:32,739 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 14:52:05,161 ] 1038 httpx : INFO : _client : HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2024-11-24 14:52:08,647 ] 1038 httpx : INFO : _client : HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2024-11-24 14:52:17,356 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 14:52:19,177 ] 107 dagshub : INFO : helpers : Accessing as viansebastian
+[ 2024-11-24 14:52:19,896 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/repos/viansebastian/Kidney-Disease-MLFlow-CICD "HTTP/1.1 200 OK"
+[ 2024-11-24 14:52:20,164 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 14:52:20,171 ] 107 dagshub : INFO : helpers : Initialized MLflow to track repo "viansebastian/Kidney-Disease-MLFlow-CICD"
+[ 2024-11-24 14:52:20,173 ] 107 dagshub : INFO : helpers : Repository viansebastian/Kidney-Disease-MLFlow-CICD initialized!
+[ 2024-11-24 15:05:47,600 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 15:05:47,608 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 15:05:47,613 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 15:07:22,358 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 15:07:22,361 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 15:07:22,362 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 15:08:17,512 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 15:08:17,516 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 15:08:17,517 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
