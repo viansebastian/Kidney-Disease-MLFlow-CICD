@@ -484,3 +484,56 @@
 [ 2024-11-24 15:55:28,119 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
 [ 2024-11-24 15:55:32,778 ] 40 cnn_classifier_logger : INFO : common : JSON file saved at: scores.json
 [ 2024-11-24 15:56:29,009 ] 47 cnn_classifier_logger : INFO : main : >>>>>>>>>> Evaluation completed <<<<<<<<<<
+[ 2024-11-24 21:33:46,457 ] 25 cnn_classifier_logger : INFO : data_ingestion : >>>>>>>>>> Data Ingestion started <<<<<<<<<<
+[ 2024-11-24 21:33:46,463 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:33:46,470 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:33:46,473 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:33:46,474 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 21:33:46,475 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 21:34:05,973 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 21:34:06,811 ] 28 cnn_classifier_logger : INFO : data_ingestion : >>>>>>>>>> Data Ingestion completed <<<<<<<<<<
+[ 2024-11-24 21:34:27,066 ] 25 cnn_classifier_logger : INFO : prepare_model : >>>>>>>>>> Model Preparation started <<<<<<<<<<
+[ 2024-11-24 21:34:27,076 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:34:27,081 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:34:27,081 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:34:30,580 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 21:34:32,181 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 21:34:34,482 ] 28 cnn_classifier_logger : INFO : prepare_model : >>>>>>>>>> Model Preparation completed <<<<<<<<<<
+[ 2024-11-24 21:36:12,169 ] 26 cnn_classifier_logger : INFO : model_trainer : >>>>>>>>>> Model Training started <<<<<<<<<<
+[ 2024-11-24 21:36:12,173 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:36:12,178 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:36:12,179 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:36:12,180 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 21:36:14,654 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 21:39:10,037 ] 29 cnn_classifier_logger : INFO : model_trainer : >>>>>>>>>> Model Training completed <<<<<<<<<<
+[ 2024-11-24 21:40:24,268 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 21:40:24,278 ] 107 dagshub : INFO : helpers : Accessing as viansebastian
+[ 2024-11-24 21:40:24,651 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/repos/viansebastian/Kidney-Disease-MLFlow-CICD "HTTP/1.1 200 OK"
+[ 2024-11-24 21:40:24,938 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 21:40:24,941 ] 107 dagshub : INFO : helpers : Initialized MLflow to track repo "viansebastian/Kidney-Disease-MLFlow-CICD"
+[ 2024-11-24 21:40:24,942 ] 107 dagshub : INFO : helpers : Repository viansebastian/Kidney-Disease-MLFlow-CICD initialized!
+[ 2024-11-24 21:40:24,966 ] 25 cnn_classifier_logger : INFO : evaluator : >>>>>>>>>> Evaluation started <<<<<<<<<<
+[ 2024-11-24 21:40:24,970 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:40:24,975 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:40:24,977 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:40:34,780 ] 40 cnn_classifier_logger : INFO : common : JSON file saved at: scores.json
+[ 2024-11-24 21:40:34,780 ] 28 cnn_classifier_logger : INFO : evaluator : >>>>>>>>>> Evaluation completed <<<<<<<<<<
+[ 2024-11-24 21:45:15,150 ] 26 cnn_classifier_logger : INFO : model_trainer : >>>>>>>>>> Model Training started <<<<<<<<<<
+[ 2024-11-24 21:45:15,154 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:45:15,157 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:45:15,158 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:45:15,158 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 21:45:17,420 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 21:48:00,426 ] 29 cnn_classifier_logger : INFO : model_trainer : >>>>>>>>>> Model Training completed <<<<<<<<<<
+[ 2024-11-24 21:48:14,144 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 21:48:14,153 ] 107 dagshub : INFO : helpers : Accessing as viansebastian
+[ 2024-11-24 21:48:14,481 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/repos/viansebastian/Kidney-Disease-MLFlow-CICD "HTTP/1.1 200 OK"
+[ 2024-11-24 21:48:14,759 ] 1038 httpx : INFO : _client : HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-24 21:48:14,762 ] 107 dagshub : INFO : helpers : Initialized MLflow to track repo "viansebastian/Kidney-Disease-MLFlow-CICD"
+[ 2024-11-24 21:48:14,763 ] 107 dagshub : INFO : helpers : Repository viansebastian/Kidney-Disease-MLFlow-CICD initialized!
+[ 2024-11-24 21:48:14,782 ] 25 cnn_classifier_logger : INFO : evaluator : >>>>>>>>>> Evaluation started <<<<<<<<<<
+[ 2024-11-24 21:48:14,785 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 21:48:14,789 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 21:48:14,791 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 21:48:25,075 ] 40 cnn_classifier_logger : INFO : common : JSON file saved at: scores.json
+[ 2024-11-24 21:48:25,075 ] 28 cnn_classifier_logger : INFO : evaluator : >>>>>>>>>> Evaluation completed <<<<<<<<<<

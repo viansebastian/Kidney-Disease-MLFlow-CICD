@@ -1,15 +1,3 @@
-
-
-"""
-Structure: 
-
-Stages: 
-  stage_name: 
-    command: 
-    dependencies: 
-    output:
-"""
-
 stages: 
   data_ingestion: 
     cmd: python src/cnn_classifier/pipeline/data_ingestion.py
@@ -41,7 +29,7 @@ stages:
       - artifacts/data_ingestion/data
       - artifacts/pretrained_base_model
     params: 
-      - EPOCH
+      - EPOCHS
       - BATCH_SIZE
       - AUGMENTATION
       - IMAGE_SIZE
@@ -58,7 +46,7 @@ stages:
       - artifacts/training/final_model.keras
     params: 
       - IMAGE_SIZE
-      - BATCH-SIZE 
+      - BATCH_SIZE 
     outs: 
       - scores.json:
           cache: false
