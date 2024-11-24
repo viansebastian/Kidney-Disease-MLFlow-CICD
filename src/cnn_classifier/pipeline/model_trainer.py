@@ -5,7 +5,7 @@ from cnn_classifier.components.model_trainer import Training
 from cnn_classifier import logger
 
 
-# STAGE_NAME = 'Model Training Stage'
+STAGE_NAME = 'Model Training'
 
 class ModelTrainerPipeline: 
     def __init__(self):
@@ -18,3 +18,15 @@ class ModelTrainerPipeline:
         training.get_base_model()
         training.train_valid_generator()
         training.train()
+        
+        
+        
+if __name__ == '__main__':
+    try: 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} started <<<<<<<<<<')
+        model_trainer = ModelTrainerPipeline() 
+        model_trainer.main() 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} completed <<<<<<<<<<')
+        
+    except Exception as e: 
+        raise e

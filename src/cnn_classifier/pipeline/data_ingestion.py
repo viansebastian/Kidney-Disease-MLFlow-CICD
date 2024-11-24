@@ -5,7 +5,7 @@ from cnn_classifier.components.data_ingestion import DataIngestion
 from cnn_classifier import logger
 
 
-# STAGE_NAME = 'Data Ingestion Stage'
+STAGE_NAME = 'Data Ingestion'
 
 class DataIngestionPipeline: 
     def __init__(self):
@@ -18,12 +18,14 @@ class DataIngestionPipeline:
         data_ingestion.download_file()
         data_ingestion.extract_zip()
 
-# if __name__ == '__main__': 
-#     try: 
-#         logger.info(f'---------- {STAGE_NAME} started----------')
-#         data_ingestion = DataIngestionPipeline() 
-#         data_ingestion.main() 
-#         logger.info(f'---------- {STAGE_NAME} completed----------')
+
+
+if __name__ == '__main__':
+    try: 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} started <<<<<<<<<<')
+        data_ingest = DataIngestionPipeline() 
+        data_ingest.main() 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} completed <<<<<<<<<<')
         
-#     except Exception as e: 
-#         raise e
+    except Exception as e: 
+        raise e

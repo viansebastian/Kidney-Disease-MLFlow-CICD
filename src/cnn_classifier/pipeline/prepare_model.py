@@ -5,7 +5,7 @@ from cnn_classifier.components.pretrained_base_model import PretrainedBaseModel
 from cnn_classifier import logger
 
 
-# STAGE_NAME = 'Model Preparation Stage'
+STAGE_NAME = 'Model Preparation'
 
 class PrepareModelPipeline: 
     def __init__(self):
@@ -18,12 +18,14 @@ class PrepareModelPipeline:
         pretrained_base_model.get_base_model()
         pretrained_base_model.update_base_model()
         
-# if __name__ == '__main__': 
-#     try: 
-#         logger.info(f'---------- {STAGE_NAME} started----------')
-#         prerpare_base_model = PrepareModel() 
-#         prerpare_base_model.main() 
-#         logger.info(f'---------- {STAGE_NAME} completed----------')
+      
         
-#     except Exception as e: 
-#         raise e
+if __name__ == '__main__': 
+    try: 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} started <<<<<<<<<<')
+        prepare_model = PrepareModelPipeline() 
+        prepare_model.main() 
+        logger.info(f'>>>>>>>>>> {STAGE_NAME} completed <<<<<<<<<<')
+        
+    except Exception as e: 
+        raise e

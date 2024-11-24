@@ -1,0 +1,64 @@
+
+
+"""
+Structure: 
+
+Stages: 
+  stage_name: 
+    command: 
+    dependencies: 
+    output:
+"""
+
+stages: 
+  data_ingestion: 
+    cmd: python src/cnn_classifier/pipeline/data_ingestion.py
+    deps: 
+      - src/cnn_classifier/pipeline/data_ingestion.py
+      - config/config.yaml
+    outs: 
+      - artifacts/data_ingestion/data
+
+  pretrained_base_model: 
+    cmd: python src/cnn_classifier/pipeline/prepare_model.py
+    deps: 
+      - src/cnn_classifier/pipeline/prepare_model.py
+      - config/config.yaml
+    params: 
+      - IMAGE_SIZE
+      - LEARNING_RATE
+      - INCLUDE_TOP
+      - WEIGHTS
+      - CLASSES
+    outs: 
+      - artifacts/pretrained_base_model
+
+  training: 
+    cmd: python src/cnn_classifier/pipeline/model_trainer.py
+    deps: 
+      - src/cnn_classifier/pipeline/model_trainer.py
+      - config/config.yaml
+      - artifacts/data_ingestion/data
+      - artifacts/pretrained_base_model
+    params: 
+      - EPOCH
+      - BATCH_SIZE
+      - AUGMENTATION
+      - IMAGE_SIZE
+      - LEARNING_RATE
+    outs: 
+      - artifacts/training/final_model.keras
+
+  evaluation: 
+    cmd: python src/cnn_classifier/pipeline/evaluator.py
+    deps: 
+      - src/cnn_classifier/pipeline/evaluator.py
+      - config/config.yaml
+      - artifacts/data_ingestion/data
+      - artifacts/training/final_model.keras
+    params: 
+      - IMAGE_SIZE
+      - BATCH-SIZE 
+    outs: 
+      - scores.json:
+          cache: false
