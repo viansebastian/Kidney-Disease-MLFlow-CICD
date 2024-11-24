@@ -1,0 +1,321 @@
+[ 2024-11-23 15:41:10,666 ] 6 cnn_classifier_logger - INFO - Custom log active
+[ 2024-11-23 21:48:55,657 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/config/config.yaml loaded successfully
+[ 2024-11-23 21:48:55,668 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/params.yaml loaded successfully
+[ 2024-11-23 21:48:55,672 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts
+[ 2024-11-23 21:48:55,674 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts/data_ingestion
+[ 2024-11-23 21:48:55,677 ] 17 cnn_classifier_logger - INFO - Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 21:50:25,667 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/config/config.yaml loaded successfully
+[ 2024-11-23 21:50:25,671 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/params.yaml loaded successfully
+[ 2024-11-23 21:50:25,674 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts
+[ 2024-11-23 21:50:25,678 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts/data_ingestion
+[ 2024-11-23 21:50:25,680 ] 17 cnn_classifier_logger - INFO - Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 21:50:56,091 ] 22 cnn_classifier_logger - INFO - Download completed
+[ 2024-11-23 21:56:04,292 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/config/config.yaml loaded successfully
+[ 2024-11-23 21:56:04,296 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/params.yaml loaded successfully
+[ 2024-11-23 21:56:04,300 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts
+[ 2024-11-23 21:56:04,303 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts/data_ingestion
+[ 2024-11-23 21:56:04,308 ] 18 cnn_classifier_logger - INFO - Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 21:56:33,202 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/config/config.yaml loaded successfully
+[ 2024-11-23 21:56:33,205 ] 21 cnn_classifier_logger - INFO - yaml file: /home/gfspet/ml-projects/kidney-disease/params.yaml loaded successfully
+[ 2024-11-23 21:56:33,207 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts
+[ 2024-11-23 21:56:33,209 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts/data_ingestion
+[ 2024-11-23 21:56:33,211 ] 18 cnn_classifier_logger - INFO - Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 22:21:54,171 ] 9 cnn_classifier_logger - INFO - ---------- Data Ingestion Stage started----------
+[ 2024-11-23 22:21:54,172 ] 21 cnn_classifier_logger - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-23 22:21:54,173 ] 21 cnn_classifier_logger - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-23 22:21:54,174 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts
+[ 2024-11-23 22:21:54,174 ] 33 cnn_classifier_logger - INFO - Created directory at: artifacts/data_ingestion
+[ 2024-11-23 22:21:54,175 ] 20 cnn_classifier_logger - INFO - Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 22:22:18,968 ] 25 cnn_classifier_logger - INFO - Download completed
+[ 2024-11-23 22:22:19,306 ] 12 cnn_classifier_logger - INFO - ---------- Data Ingestion Stage completed----------
+[ 2024-11-23 22:24:21,329 ] 9 cnn_classifier_logger : INFO : main : ---------- Data Ingestion Stage started----------
+[ 2024-11-23 22:24:21,330 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-23 22:24:21,330 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-23 22:24:21,332 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-23 22:24:21,332 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-23 22:24:21,332 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1RMUrozOYrdxD40pcXJMCAPRy6kIrBrg3/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-23 22:24:39,922 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-23 22:24:40,237 ] 12 cnn_classifier_logger : INFO : main : ---------- Data Ingestion Stage completed----------
+[ 2024-11-24 00:21:05,751 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 00:21:05,754 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 00:21:05,756 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 00:21:06,733 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 00:21:07,166 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 00:37:07,273 ] 9 cnn_classifier_logger : INFO : main : ---------- Data Ingestion Stage started----------
+[ 2024-11-24 00:37:07,275 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 00:37:07,276 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 00:37:07,277 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 00:37:07,278 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 00:37:07,279 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 00:37:24,719 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 00:37:25,068 ] 12 cnn_classifier_logger : INFO : main : ---------- Data Ingestion Stage completed----------
+[ 2024-11-24 00:37:51,064 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 00:37:51,065 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 00:37:51,066 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 00:37:51,067 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 00:37:51,067 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 00:37:51,068 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 00:38:03,696 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 00:38:04,022 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 00:38:04,022 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 00:38:04,023 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 00:38:04,025 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 00:38:04,025 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 00:38:04,933 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 00:38:05,348 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 00:38:05,582 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 01:09:48,148 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:09:48,160 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:09:48,162 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:09:48,166 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:09:49,415 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 01:11:02,357 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:11:02,361 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:11:02,362 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:11:02,364 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:11:03,071 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 01:11:28,041 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:11:28,043 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:11:28,044 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:11:28,045 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:11:29,019 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 01:19:18,559 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 01:19:18,561 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:19:18,562 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:19:18,563 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:19:18,564 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 01:19:18,566 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 01:19:37,819 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 01:19:38,401 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 01:19:38,402 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 01:19:38,404 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:19:38,405 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:19:38,405 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:19:40,025 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:19:40,745 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:19:41,346 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 01:19:55,451 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:19:55,453 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:19:55,454 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:19:55,455 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:19:56,287 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 01:22:21,221 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 01:22:21,223 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:22:21,225 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:22:21,225 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:22:21,225 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 01:22:21,225 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 01:22:42,347 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 01:22:42,772 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 01:22:42,772 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 01:22:42,773 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:22:42,774 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:22:42,774 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:22:43,543 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:22:43,812 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:22:44,014 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 01:25:30,812 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:25:30,815 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:25:30,817 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:25:30,818 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:25:31,720 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:25:59,123 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:30:26,447 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:30:26,451 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:30:26,453 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:30:26,454 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:30:27,351 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:32:22,543 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:33:25,230 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:33:25,233 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:33:25,234 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:33:25,235 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:33:26,122 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:35:20,251 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:36:15,148 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:36:15,152 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:36:15,153 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:36:15,155 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:36:16,130 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:39:04,872 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:39:04,876 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:39:04,877 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:39:04,881 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:39:05,718 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:40:03,160 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 01:42:47,705 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:42:47,708 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:42:47,709 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:42:47,710 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:42:48,576 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:45:21,073 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:45:21,075 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:45:21,077 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:45:21,078 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:45:21,924 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:46:51,060 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:46:51,064 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:46:51,066 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:46:51,067 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:46:52,188 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:47:05,538 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 01:47:05,541 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 01:47:05,542 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 01:47:05,543 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 01:47:06,454 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 01:50:22,115 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:19:57,545 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:19:57,563 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:19:57,569 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:19:57,573 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:20:00,715 ] 146 absl : WARNING : legacy_h5_format : No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+[ 2024-11-24 12:35:14,676 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 12:35:14,680 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:35:14,685 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:35:14,689 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:35:14,690 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 12:35:14,693 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 12:35:34,748 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 12:35:35,565 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 12:35:35,566 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 12:35:35,569 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:35:35,571 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:35:35,572 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:35:37,218 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:35:37,795 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:35:38,311 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 12:37:06,593 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:37:06,610 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:37:06,612 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:37:06,616 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:37:08,805 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 12:41:26,270 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:42:00,019 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:42:00,027 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:42:00,030 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:42:00,035 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:42:02,710 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 12:45:48,265 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 12:45:48,269 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:45:48,272 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:45:48,277 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:45:48,278 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 12:45:48,279 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 12:46:08,823 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 12:46:09,522 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 12:46:09,522 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 12:46:09,526 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:46:09,530 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:46:09,530 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:46:11,372 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:46:12,003 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:46:12,502 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 12:46:45,052 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:46:45,060 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:46:45,063 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:46:45,067 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:46:47,273 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 12:51:55,394 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 12:51:55,399 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:51:55,403 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:51:55,406 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:51:55,407 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 12:51:55,408 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 12:52:10,759 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 12:52:11,403 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 12:52:11,403 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 12:52:11,408 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:52:11,413 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:52:11,414 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:52:18,925 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:52:19,309 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:52:19,650 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 12:52:46,070 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:52:46,077 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:52:46,079 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:52:46,082 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:52:46,688 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 12:56:42,326 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<
+[ 2024-11-24 12:56:42,331 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:56:42,335 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:56:42,342 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:56:42,344 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 12:56:42,345 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 12:56:58,922 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 12:57:00,317 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<
+[ 2024-11-24 12:57:00,318 ] 23 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage started <<<<<<<<<<
+[ 2024-11-24 12:57:00,320 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:57:00,323 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:57:00,323 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:57:02,254 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:57:03,045 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 12:57:04,241 ] 26 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation Stage completed <<<<<<<<<<
+[ 2024-11-24 12:58:01,183 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 12:58:01,189 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 12:58:01,193 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 12:58:01,208 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 12:58:03,598 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:03:07,051 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 13:10:32,392 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:10:32,400 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:10:32,403 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:10:32,406 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:10:36,213 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:10:41,356 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:10:41,363 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:10:41,365 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:10:41,369 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:10:43,440 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:13:28,617 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:13:28,626 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:13:28,630 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:13:28,633 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:13:30,299 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:21:10,955 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:21:10,969 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:21:10,985 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:21:10,986 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:21:13,282 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:24:36,157 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion started <<<<<<<<<<
+[ 2024-11-24 13:24:36,159 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:24:36,160 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:24:36,161 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:24:36,256 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 13:24:36,280 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 13:24:53,432 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 13:24:53,945 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion completed <<<<<<<<<<
+[ 2024-11-24 13:24:53,945 ] 21 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation started <<<<<<<<<<
+[ 2024-11-24 13:24:53,946 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:24:53,948 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:24:53,948 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:24:54,838 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 13:24:55,245 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 13:25:09,852 ] 24 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation completed <<<<<<<<<<
+[ 2024-11-24 13:25:09,853 ] 31 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Training started <<<<<<<<<<
+[ 2024-11-24 13:25:09,854 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:25:09,855 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:25:09,856 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:25:09,972 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:25:10,963 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:26:48,763 ] 10 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion started <<<<<<<<<<
+[ 2024-11-24 13:26:48,766 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:26:48,768 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:26:48,770 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:26:48,771 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/data_ingestion
+[ 2024-11-24 13:26:48,772 ] 20 cnn_classifier_logger : INFO : data_ingestion : Downloading data from (https://drive.google.com/file/d/1iAsruYIHPIxYqMFzV9Y4mdS4holUhsDA/view?usp=sharing) to (artifacts/data_ingestion/data.zip)
+[ 2024-11-24 13:27:08,738 ] 25 cnn_classifier_logger : INFO : data_ingestion : Download completed
+[ 2024-11-24 13:27:09,062 ] 13 cnn_classifier_logger : INFO : main : >>>>>>>>>> Data Ingestion completed <<<<<<<<<<
+[ 2024-11-24 13:27:09,063 ] 21 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation started <<<<<<<<<<
+[ 2024-11-24 13:27:09,064 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:27:09,065 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:27:09,065 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:27:09,778 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 13:27:10,271 ] 83 absl : WARNING : saving_api : You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-24 13:27:10,649 ] 24 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Preparation completed <<<<<<<<<<
+[ 2024-11-24 13:27:10,649 ] 31 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Training started <<<<<<<<<<
+[ 2024-11-24 13:27:10,650 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 13:27:10,652 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 13:27:10,652 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 13:27:10,653 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 13:27:11,299 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 13:27:40,613 ] 34 cnn_classifier_logger : INFO : main : >>>>>>>>>> Model Training completed <<<<<<<<<<

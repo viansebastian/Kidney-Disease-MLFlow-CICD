@@ -1,0 +1,24 @@
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 10
+CLASSES: 3
+WEIGHTS: imagenet
+LEARNING_RATE: 0.001
+# CONV_LAYERS: [
+#             {'filters': choice(64, 128), 
+#             'kernel_size': (3, 3), 
+#             'activation': 'relu', 
+#             'padding': 'same', 
+#             'use_maxpool': True
+#             },
+#             {'filters': choice(128, 256), 
+#             'kernel_size': (3, 3), 
+#             'activation': 'relu', 
+#             'padding': 'same', 
+#             'use_maxpool': False
+#             }
+#         ]
+# DENSE_LAYERS: [512, 256]
+# DROPOUT: [0.1, 0.2, 0.3]
