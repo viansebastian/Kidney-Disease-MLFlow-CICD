@@ -537,3 +537,191 @@
 [ 2024-11-24 21:48:14,791 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
 [ 2024-11-24 21:48:25,075 ] 40 cnn_classifier_logger : INFO : common : JSON file saved at: scores.json
 [ 2024-11-24 21:48:25,075 ] 28 cnn_classifier_logger : INFO : evaluator : >>>>>>>>>> Evaluation completed <<<<<<<<<<
+[ 2024-11-24 22:07:20,559 ] 21 cnn_classifier_logger : INFO : common : yaml file: config/config.yaml loaded successfully
+[ 2024-11-24 22:07:20,571 ] 21 cnn_classifier_logger : INFO : common : yaml file: params.yaml loaded successfully
+[ 2024-11-24 22:07:20,575 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts
+[ 2024-11-24 22:07:20,579 ] 33 cnn_classifier_logger : INFO : common : Created directory at: artifacts/training
+[ 2024-11-24 22:07:23,287 ] 256 absl : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-24 22:26:00,591 ] 97 werkzeug : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.41.170:8080
+[ 2024-11-24 22:26:00,700 ] 97 werkzeug : INFO : _internal : [33mPress CTRL+C to quit[0m
+[ 2024-11-24 22:26:08,851 ] 875 app : ERROR : app : Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/gfspet/ml-projects/kidney-disease/app.py", line 20, in home
+    return render_template('templates/index.html')
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+[ 2024-11-24 22:26:08,866 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-11-24 22:26:11,271 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-11-24 22:26:19,197 ] 875 app : ERROR : app : Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/gfspet/ml-projects/kidney-disease/app.py", line 20, in home
+    return render_template('templates/index.html')
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+[ 2024-11-24 22:26:19,200 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-11-24 22:26:51,059 ] 875 app : ERROR : app : Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/gfspet/ml-projects/kidney-disease/app.py", line 20, in home
+    return render_template('index.html')
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+[ 2024-11-24 22:26:51,061 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-11-24 22:26:51,819 ] 875 app : ERROR : app : Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/gfspet/ml-projects/kidney-disease/app.py", line 20, in home
+    return render_template('index.html')
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+[ 2024-11-24 22:26:51,822 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-11-24 22:26:52,395 ] 875 app : ERROR : app : Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/gfspet/ml-projects/kidney-disease/app.py", line 20, in home
+    return render_template('index.html')
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/gfspet/miniconda3/envs/kidney-disease/lib/python3.9/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+[ 2024-11-24 22:26:52,397 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:26:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2024-11-24 22:27:04,650 ] 97 werkzeug : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.41.170:8080
+[ 2024-11-24 22:27:04,650 ] 97 werkzeug : INFO : _internal : [33mPress CTRL+C to quit[0m
+[ 2024-11-24 22:27:09,352 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:27:09] "GET / HTTP/1.1" 200 -
+[ 2024-11-24 22:27:29,512 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:27:29] "GET / HTTP/1.1" 200 -
+[ 2024-11-24 22:28:29,946 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:28:29] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[ 2024-11-24 22:30:00,369 ] 97 werkzeug : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.41.170:8080
+[ 2024-11-24 22:30:00,369 ] 97 werkzeug : INFO : _internal : [33mPress CTRL+C to quit[0m
+[ 2024-11-24 22:30:01,294 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:30:01] "GET / HTTP/1.1" 200 -
+[ 2024-11-24 22:30:19,125 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:30:19] "POST /predict HTTP/1.1" 200 -
+[ 2024-11-24 22:30:42,457 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:30:42] "POST /predict HTTP/1.1" 200 -
+[ 2024-11-24 22:31:05,592 ] 97 werkzeug : INFO : _internal : 127.0.0.1 - - [24/Nov/2024 22:31:05] "POST /predict HTTP/1.1" 200 -

@@ -3,7 +3,9 @@ import yaml
 import base64
 import json
 import joblib
-from cnn_classifier import logger
+import sys
+sys.path.append('/home/gfspet/ml-projects/kidney-disease/src/cnn_classifier')
+from src.cnn_classifier import logger
 from typing import Any
 from pathlib import Path
 from box.exceptions import BoxValueError

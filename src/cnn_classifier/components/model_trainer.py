@@ -41,6 +41,7 @@ class Training:
             class_mode='categorical',
             **dataflow_kwargs
         )
+        print('encode (validation): ', self.validation_generator.class_indices)
         
         if self.config.params_augmentation:
             train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
@@ -59,6 +60,7 @@ class Training:
             class_mode='categorical',
             **dataflow_kwargs
         ) 
+        print('encode (train): ', self.train_generator.class_indices)
         
     def train(self):
         
