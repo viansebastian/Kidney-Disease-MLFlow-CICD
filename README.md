@@ -29,7 +29,7 @@ The project itself aims to deploy a kidney disease classification task, analyzin
 ### To run this app: 
 1. Head over to the dataset, and download some images! [Dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
-*It is recommended to use the Kaggle API to only donwload some images instead of everything*
+*It is recommended to use the Kaggle API to only download some images instead of everything*
 
 2. Pull and Run Docker Image
 
