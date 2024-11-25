@@ -1,6 +1,6 @@
 # Kidney-Disease-MLFlow-CICD
 
-This repository is a self-learn end-to-end machine learning project, covering 
+This repository is a self-learn end-to-end machine learning project, where I implemented:
 - Data Scraping using Google Colab and Drive
 - Data Ingestion
 - Data Transformation (+ Augmentation)
